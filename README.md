@@ -1,26 +1,12 @@
-# Collection of protocol components for ESP-IDF
+# mDNS Service
 
-[Documentation of esp-protocol](https://espressif.github.io/esp-protocols)
+mDNS is a multicast UDP service that is used to provide local network service and host discovery.
 
-## Components
+## Examples
 
-### esp_modem
+Get started with example test [Example](examples/README.md):
 
-* Brief introduction [README](components/esp_modem/README.md)
-* Full html [documentation](https://espressif.github.io/esp-protocols/esp_modem/index.html)
+## Documentation
 
-### mDNS
-
-* Brief introduction [README](components/mdns/README.md)
-* Full html [documentation(English)](https://espressif.github.io/esp-protocols/mdns/en/index.html)
-* Full html [documentation(Chinese)](https://espressif.github.io/esp-protocols/mdns/zh_CN/index.html)
-
-### esp_websocket_client
-
-* Brief introduction [README](components/esp_websocket_client/README.md)
-* Full html [documentation](https://espressif.github.io/esp-protocols/esp_websocket_client/index.html)
-
-### ASIO port
-
-* Brief introduction [README](components/asio/README.md)
-* Full html [documentation](https://espressif.github.io/esp-protocols/asio/index.html)
+* View the full [documentation(English)](https://espressif.github.io/esp-protocols/mdns/en/index.html)
+* View the full [documentation(Chinese)](https://espressif.github.io/esp-protocols/mdns/zh_CN/index.html)
