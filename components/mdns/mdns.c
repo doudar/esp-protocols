@@ -35,7 +35,7 @@ void mdns_debug_packet(const uint8_t * data, size_t len);
 // since the ip6_addr_t is defined in lwip and depends on using IPv6 zones
 #define _MDNS_SIZEOF_IP6_ADDR (MDNS_ANSWER_AAAA_SIZE)
 
-static const char * MDNS_DEFAULT_DOMAIN = "local";
+static const char * MDNS_DEFAULT_DOMAIN = "whoa";
 static const char * MDNS_SUB_STR = "_sub";
 
 mdns_server_t * _mdns_server = NULL;
